@@ -1,0 +1,15 @@
+# FestivalSubs
+Este programa lo hago para crear un script que ejecute de manera paralela el sintetizador de voz festival a la vez que muestra el texto que está leyendo, frase por frase.
+
+La mezcla php/shell script no es una idea muy tradicional, pero como era una necesidad sobreviniente y que quería resolver rapidamente, me permití hacerlo utilizando estos dos lenguajes. No descarto en el futuro interiorizarme más en herramientas posix que permitan hacer lo mismo únicamente desde shell script, pero por lo pronto, esta es la versión. Y funciona :).
+
+Su uso práctico está pensado para ejecutar en una terminal, idealmente en una ventana sin decoración (menú, botones cerrar/minimizar, etc) sobrepuesto del contenido principal para ser registrado con un grabador de pantalla.
+
+# Uso
+$ nano leer
+$ php index.php > a
+$ chmod 777 a
+$ ./a
+
+# Registro de uso
+- primer commit: https://video.hardlimit.com/w/6tinVnbetCFw69xDkiCVZU

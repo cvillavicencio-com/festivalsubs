@@ -1,0 +1,30 @@
+clear;
+echo 'La gallina degollada, de Horacio Quiroga (fragment'
+echo 'o)'
+echo 'La gallina degollada, de Horacio Quiroga (fragmento)' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo 'Todo el día, sentados en el patio en un banco, es'
+echo 'taban los cuatro hijos idiotas del matrimonio Mazz'
+echo 'ini-Ferraz'
+echo 'Todo el día, sentados en el patio en un banco, estaban los cuatro hijos idiotas del matrimonio Mazzini-Ferraz' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo 'Tenían la lengua entre los labios, los ojos estú'
+echo 'pidos y volvían la cabeza con la boca abierta'
+echo 'Tenían la lengua entre los labios, los ojos estúpidos y volvían la cabeza con la boca abierta' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo ' El patio era de tierra, cerrado al oeste por un c'
+echo 'erco de ladrillos'
+echo ' El patio era de tierra, cerrado al oeste por un cerco de ladrillos' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo 'El banco quedaba paralelo a él, a cinco metros, y'
+echo ' allí se mantenían inmóviles, fijos los ojos en'
+echo ' los ladrillos'
+echo 'El banco quedaba paralelo a él, a cinco metros, y allí se mantenían inmóviles, fijos los ojos en los ladrillos' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo 'Como el sol se ocultaba tras el cerco, al declinar'
+echo ' los idiotas tenían fiesta'
+echo 'Como el sol se ocultaba tras el cerco, al declinar los idiotas tenían fiesta' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+echo '
+
+'
+echo '
+
+' | iconv -f utf-8 -t iso-8859-1|festival --tts ; clear
+
+read
+    

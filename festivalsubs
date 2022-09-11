@@ -1,0 +1,13 @@
+# echo hola | iconv -f utf-8 -t iso-8859-1|festival --tts
+
+
+
+#!/bin/bash
+
+
+a="( "$(cat texto)" )"
+arr=$a
+
+echo "todo: " ${arr[*]}
+
+echo "arr2: " ${arr[2]}
